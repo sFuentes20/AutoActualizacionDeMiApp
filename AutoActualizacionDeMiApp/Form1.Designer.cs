@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -39,13 +40,24 @@
             label1.Name = "label1";
             label1.Size = new Size(264, 45);
             label1.TabIndex = 0;
-            label1.Text = "VERSION 1.0.0.1";
+            label1.Text = "VERSION 1.0.0.2";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(21, 136);
+            label2.Name = "label2";
+            label2.Size = new Size(570, 45);
+            label2.TabIndex = 1;
+            label2.Text = "SUBAN SUELDO PPPPPPPPPPPPPPP";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(603, 341);
+            Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
@@ -56,5 +68,6 @@
         #endregion
 
         private Label label1;
+        private Label label2;
     }
 }
